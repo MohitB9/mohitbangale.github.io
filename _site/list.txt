@@ -1,4 +1,0 @@
-pages should have opposite colors. 
-photos as milestones
-https://github.com/MichaelCurrin/jekyll-blog-demo
-this link has different MD pages. 
