@@ -1,12 +1,7 @@
----
-title: Resume
----
+![]Mohit Bangale
+Senior Staff Engineer
 
-# Mohit Bangale 
-
-This site is under work... 
-
-## Experience Summary
+Experience Summary
 
 - 10 years of experience in computer vision, image processing and vision-based machine learning/deep learning application development.
 - Building & deploying highly creative solutions for more than a decade.
@@ -14,7 +9,7 @@ This site is under work...
 - 5 years of excellent track record with technical project management & customer interaction.
 - Spearheaded 6 different projects from various geographies with outstanding customer feedback.
 
-## Employment History
+Employment History
 
 - Working at **Ignitarium Technology Solutions** from January 2019 to till date.
 - Got promoted to multiple levels like Senior engineer, Staff Engineer, and Senior staff engineer during this tenure. Current position in the organization is **Senior Staff Engineer.**
@@ -23,29 +18,30 @@ This site is under work...
 - MTech internship from **CSIR-CSIO** Chandigarh (Ministry of Science and Technology, Government of India) on the project ‘visual odometry’ from July2014 to May2015.
 - Graduation internship from **Tata Institute of Fundamental Research (TIFR)** Cosmic ray laboratory on the project multichannel high voltage measurements.
 
-## Skills
+Skills
 
-|  |  |
-| --- | --- |
 | Coding languages | C, C++ & python |
+| --- | --- |
 | Platforms used | Ubuntu, yocto, petalinux and windows, |
 | Libraries and toolchains | Deepstream, TensorRT, CUDA, Tensorflow, Keras, OpenCV, numpy |
 | Embedded devices familiarity | Nvidia Jetson family devices (Orin, Xavier,TX2, Nano), Hailo M.2 accelerators, Google coral TPU dev board & stick, Raspberry pi 4B , Xilinx ZCU104 zynq evaluation board |
 | Technical Domain expertise | Benchmarking of embedded AI accelerators, novel solutions using AI accelerators, end to end computer vision solutions, Optimizing existing solution pipelines for better speed and power efficiency. |
 | Managerial skills | Team leadership, client & stakeholder management, subject matter knowledge, engineering resource management, project management, milestone planning, strong verbal and written communication skills. |
 
-## Education  
+Education  
 
 - **(Post graduation) Master of Technology - Embedded systems** from Vellore Institute of Technology, VIT, TN, India 2015.
 - **(Graduation) Bachelor of Engineering – Electronics and Communication Engineering** from Vishwakarma Institute of Information Technology, University of Pune, MH, India 2012
 
-## Key Projects
+Key Projects
 
 Senior Staff Engineer
+
 Ignitarium
+
 June 2022 - till date
 
-1. **Code quality improvement & AI validation: deployed at client HQ**
+1. **Code quality improvement & AI validation project: Nvidia**
 
 - Duration: Sept 2023 – till date
 - Role played: On-site team lead, technical project manager
@@ -54,7 +50,7 @@ June 2022 - till date
 
 The project focuses on code quality improvement & AI validation tasks for customer’s autonomous driving code. This is an ongoing project since last 9 months. The work is being carried out from the customer’s headquarters in the US. Managing an offshore team along with on-site stakeholders. Part of pre-sales to gain the customer confidence. Responsibilities include resource allocation & management, project planning, risk assessment, customer communication, delivery management and technical contributions.
 
-2. **Ignitarium-Renesas AI sample applications library**
+1. **Ignitarium-Renesas AI sample applications library**
 
 - Duration: October 2022 – August 2023
 - Role played: Team lead, technical & project manager.
@@ -65,7 +61,7 @@ Led a small team to create a library of 13 sample AI applications to demonstrate
 
 Responsibilities include ideation for the applications, resource management, brainstorming with stakeholders, project planning, risk assessment, delivery management and technical contributions. Repository link for reference: [GitHub - Ignitarium-Renesas/RZV2L_AiLibrary](https://github.com/Ignitarium-Renesas/RZV2L_AiLibrary)
 
-3. **Benchmarking an AI accelerator module**
+1. **Benchmarking an AI accelerator module**
 
 - Duration: March 2022 to September 2022
 - Role played: Team leader & project manager.
@@ -75,10 +71,12 @@ Responsibilities include ideation for the applications, resource management, bra
 This project targeted benchmarking an AI accelerator module from a startup company. The accelerator was benchmarked with Intel up squared 6000 host and IMX8M quad EVK with M.2 interface. Criteria were latency, throughput, accuracy and power consumption. Responsibilities include resource selection & allocation, resource management, project milestone planning, risk assessment, customer communication, delivery management and technical guidance.
 
 Staff Engineer
+
 Ignitarium
+
 June 2021 – May 2022
 
-4. **Japanese ANPR and US ANPR for ultra-low powered smart camera module**
+1. **Japanese ANPR and US ANPR for ultra-low powered smart camera module**
 
 - Duration: Dec 2021 to August 2022
 - Role played: Team leader, technical and project manager.
@@ -89,7 +87,7 @@ An automatic number plate recognition system’s prototype was developed for a s
 
 Responsibilities include pre-sales support, resource allocation, project milestone planning, resource management, risk assessment, customer communication, delivery management and technical contributions.
 
-5. **Camera based pose analysis and body parts measurements for a healthcare OEM**
+1. **Camera based pose analysis and body parts measurements for a healthcare OEM**
 
 - Duration: August 2021 to December 2021
 - Role played: Solution architect, team lead and project manager.
@@ -101,10 +99,12 @@ Spearheaded the development of human pose detection prototype using deep learnin
 Responsibilities include concept proposal, resource selection & allocation, project milestone planning, resource management, risk assessment, customer communication, delivery management and technical contributions.
 
 Senior Engineer
+
 Ignitarium
+
 Jan 2019 – May 2021
 
-6. **Openfive model porting**
+1. **Openfive model porting**
 
 - Duration: November2020 -April 2021
 - Role played: Team leader & developer.
@@ -121,22 +121,24 @@ The project included porting a deep learning-based object detection model to Ope
 
 This project compared different jetpacks on Nvidia Jetson Xavier. Experiments like DLA vs GPU, latency, throughput, fps/watt etc. were carried out. A lot of in-house automation scripts were developed to have zero human errors. Performance numbers were matched with the numbers published by Nvidia.
 
-2. **People in-out counter on Nvidia jetson platform**
+1. **People in-out counter on Nvidia jetson platform**
 
 An in-house POC was carried out to check feasibility for a customer in transportation domain. Nvidia jetson nano with Deepstream SDK was used as a computation device along with a CCTV camera providing RTSP stream.
 
-3. **High speed nut counter**
+1. **High speed nut counter**
 
 This project consists of making a prototype unit to demonstrate nut counting on image sequence generated by a 90FPS camera. Involved in setting up the A53 CPU part of Xilinx ZCU104 board, petalinux configuration and setup, bare metal and petalinux handshake C code, algorithm design using python and openCV and basic GUI building using GTK+. OnSemi and handled customer interactions - both tech and customer relationship.
 
-4. **MLMark**
+1. **MLMark**
 
 Benchmarking exercise of EEMBC MLMark. This benchmark is targeted towards embedded devices and calculates throughput, latency and accuracy for selected deep neural networks. Complete ownership of TensorRT, ArmNN, Tensorflow Lite and TPU branch. Target devices were jetson Xavier, jetson nano, coral TPU devboard, imx8mx dev board. <https://www.eembc.org/mlmark/>
 
 Published a white paper with EEMBC CEO, Peter Torelli. <https://www.eembc.org/techlit/articles/MLMARK-WHITEPAPER-FINAL-1.pdf>
 
 Senior Algorithm/Software Engineer
+
 Continental AG
+
 May 2015 - Dec2018
 
 **Software developer – Object detection and tracking**
@@ -149,7 +151,9 @@ This role consisted of overall project management and development together. Lead
 
 Contact Details
 
-Email: [mohitbangale9@gmail.com](mailto:mohitbangale9@gmail.com)
+Email: [mohitbangale9@gmail.com](mailto:mohitbangale9@gmail.com) and [mohit.bangale@ignitarium.com](mailto:mohit.bangale@ignitarium.com)
+
+Phone number: +1 512 897 5824 & +91 9422875109
 
 LinkedIn: [linkedin.com/in/mohit-bangale-93633399](https://www.linkedin.com/in/mohit-bangale-93633399)
 
