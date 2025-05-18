@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Milestones</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('./images/background.jpg');
+      margin: 10;
+      margin-top: 10px;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      max-width: 500px;
+      margin-top: 10px;
+      margin: auto;
+      color: #ffffff;
+      padding: 20px 20px 20px;
+      background-color: rgb(0, 0, 0);opacity: 0.9;  ;
+      
+    }
+
+    .timeline {
+      max-width: 800px;
+      margin: auto;
+      /*padding: 20px;*/
+    }
+
+    .milestone {
+      display: flex;
+      align-items: flex-start;
+      background-color: white;
+      border-left: 5px solid #ffaa00;
+      padding: 15px 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: relative;
+      animation: slide-in-bottom 0.8s ease-out;
+    }
+    @keyframes slide-in-bottom {
+      from {
+        transform: translatey(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translatey(0);
+        opacity: 1;
+      }
+    }
+
+    
+
+/*    .milestone::before {
+      content: '';
+      position: absolute;
+      left: -10px;
+      top: 20px;
+      width: 12px;
+      height: 12px;
+      background-color: #007BFF;
+      border-radius: 50%;
+    }
+*/
+    .logo {
+      width: 40px;
+      height: 40px;
+      margin-right: 15px;
+      object-fit: contain;
+    }
+
+    .text-content {
+      font-weight: bold;
+      color: #000000;
+      flex: 1;
+    }
+
+    .date {
+      font-weight: bold;
+      color: #007BFF;
+      margin-bottom: 5px;
+    }
+
+    /* Parallax section */
+   /* .parallax {
+      background-image: url('./images/background.jpg');
+      min-height: 20px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }*/
+
+    @media (max-width: 600px) {
+      .milestone {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .logo {
+        margin-bottom: 10px;
+      }
+
+      .parallax {
+        background-attachment: scroll; /* fallback for mobile */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Career Milestones</h1>
+
+  <div class="parallax"></div>
+
+  <div class="timeline">
+
+    <div class="milestone">
+      <img src="./images/continental.png" class="logo" alt="Continental">
+      <div class="text-content">
+        <div class="date">May 2015</div>
+        First day at Continental Automotive.
+      </div>
+    </div>
+
+    <div class="milestone">
+      <img src="./images/trophy.png" class="logo" alt="Award">
+      <div class="text-content">
+        <div class="date">Oct 2015</div>
+        Winner of Contivation Challenge – “ADAS for India”. Received Innovation Award.
+      </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="milestone">
+      <img src="https://cdn-icons-png.flaticon.com/512/218/218391.png" class="logo" alt="Vision">
+      <div class="text-content">
+        <div class="date">Dec 2015</div>
+        Took ownership of Optical Flow module.
+      </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="milestone">
+      <img src="./images/presentation.png" class="logo" alt="Germany">
+      <div class="text-content">
+        <div class="date">Mid 2017</div>
+        Invited to Germany for expertise in Courage static tool deployment.
+      </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="milestone">
+      <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" class="logo" alt="Object Detection">
+      <div class="text-content">
+        <div class="date">2018</div>
+        Moved to the Classical Object Detection team.
+      </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="milestone">
+      <img src="./images/Ignitarium_logo.jpg" class="logo" alt="Ignitarium">
+      <div class="text-content">
+        <div class="date">2019</div>
+        Joined Ignitarium.
+      </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="milestone">
+      <img src="./images/EMBC.png" class="logo" alt="EEMBC">
+      <div class="text-content">
+        <div class="date">July 2019</div>
+        Delivered results on EEMBC MLMark project.
+      </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="milestone">
+      <img src="./images/Renesas_rz.png" class="logo" alt="Renesas">
+      <div class="text-content">
+        <div class="date">2023</div>
+        Presented work at Renesas, Tokyo.
+      </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="milestone">
+      <img src="./images/USA.png" class="logo" alt="Santa Clara">
+      <div class="text-content">
+        <div class="date">End of 2023</div>
+        Collaborated on project in Santa Clara.
+      </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="milestone">
+      <img src="./images/10years.png" class="logo" alt="Anniversary">
+      <div class="text-content">
+        <div class="date">May 2025</div>
+        Completed 10 years in the industry!
+      </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    
+  </div>
+
+</body>
+</html>
