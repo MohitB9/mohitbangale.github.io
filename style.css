@@ -132,6 +132,40 @@ ul.main-menu li a.active {
   border-bottom-color:#EF6D3D;
 }
 
+/* animation types */
+.fadeIn {
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.slide-in-left {
+  animation: slide-in-left 1s ease-out;
+}
+@keyframes slide-in-left {
+  from {transform: translateX(-100%);opacity: 0;}
+  to {transform: translateX(0);opacity: 1;}
+}
+
+.slide-in-top {
+  animation: slide-in-top 1s ease-out;
+}
+@keyframes slide-in-top {
+  from {transform: translatey(-100%);opacity: 0;}
+  to {transform: translatey(0);opacity: 1;}
+}
+
+.pulse {
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05);opacity: 0.7; }
+  100% { transform: scale(1); }
+}
+
 /* Utility classes */
 .hide {
   display:none;
