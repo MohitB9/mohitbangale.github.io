@@ -1,7 +1,3 @@
----
-title: Mohit Bangale
----
-
 Work in progress! :repeat: 
 
 ## Experience Summary
