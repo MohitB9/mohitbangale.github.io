@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .article {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 5px solid #007BFF;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    .article h2 {
+      margin-top: 0;
+    }
+
+    .article .date {
+      color: #777;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .article p {
+      line-height: 1.6;
+    }
+
+    .article a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .article a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+    <nav class="navbar">
+    <a href="index.html">🏠 Home</a>
+    <a href="journey.html">📌 Journey</a>
+    <a href="photo_gallery.html">📸 Gallery</a>
+    </nav>
+
+    <style>
+    .navbar {
+        background-color: #333;
+        padding: 12px 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 8px 14px;
+        border-radius: 6px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .navbar a:hover {
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    </style>
+
+  <header>
+    <h1>Work in progress!</h1>
+    <p>Thoughts, experiments & experiences</p>
+  </header>
+
+  <div class="container">
+    <div class="article">
+      <h2>EEMBC MLMark : Benchmarking inference on embedded platforms</h2>
+      <div class="date">July 2019</div>
+      <p>Sharing whitepaper link : Measuring Inference Performance of Machine-Learning Frameworks on Edge
+class Devices with the MLMark™ Benchmark https://www.eembc.org/techlit/articles/MLMARK-WHITEPAPER-FINAL-1.pdf </p>
+      <a href="#">Read more →</a>
+    </div>
+
+    <div class="article">
+      <h2>Top 5 Tools Every Engineer Should Know</h2>
+      <div class="date">April 30, 2025</div>
+      <p>Here’s a rundown of essential tools I use in my daily workflow as a technical manager and developer...</p>
+      <a href="#">Read more →</a>
+    </div>
+
+    <div class="article">
+      <h2>My Journey into Embedded Vision</h2>
+      <div class="date">April 10, 2025</div>
+      <p>Back in 2018, I started exploring embedded vision systems. This article walks through key projects that shaped my expertise...</p>
+      <a href="#">Read more →</a>
+    </div>
+  </div>
+
+</body>
+</html>
